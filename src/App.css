@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+.cards {
+  margin: 40px;
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+.prodlist {
+  width: 60vw;
+  max-width: 1170px;
+  margin: 2rem 0.8rem 0.8rem 0.8rem;
+  display: grid;
+  gap: 1rem;
+}
+.prodlist {
+  grid-template-columns: repeat(2, 1fr);
+}
+.imgs {
+  width: 200px;
+  height: 200px;
+}
+.mycart {
+  position: absolute;
+  width: 30%;
+  right: 7rem;
+  word-wrap: none;
+  top: 2.8rem;
+}
